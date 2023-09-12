@@ -1,0 +1,86 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	}
+	a{
+		text-decoration:none;
+	}
+	.price-card ul li{
+		list-style-type:none;
+		line-height:2.5;
+		font-size:15px;
+		color:#999;
+	}
+	.price-card ul{
+		padding-bottom:37px;
+	}
+	.container{
+		width:80%;
+		margin:auto;
+	}
+	.price-card{
+		margin:auto;
+		margin-top:10%;
+		text-align:center;
+		width:25%;
+		height:73vh;
+		background-color:#fff;
+		box-shadow:0 0 15px #ccc;
+		border-radius:5px;
+		
+		position:relative;
+		overflow:hidden;
+		
+	}
+	.price-card h1{
+		padding:20px;
+		color:#6132c7;
+		font-size:35px;
+	}
+	.price-card h1 span{
+		font-size:15px;
+		color:#ccc;
+		font-weight:50;
+		
+	}
+	.price-card h1 sup{
+		font-weight:50;
+		font-size:20px;
+	}
+	.head{
+		height:15%;
+		background-color:#f2f2f5;
+		border-radius:5px 5px 0 0;
+	}
+	.head p{
+		color:#fff;
+		font-size:14px;
+		width:50%;
+		padding:4px 0px;
+		background-color:#6132c7;
+		
+		
+		position:absolute;
+		top:4%;
+		right:-13%;
+		transform:rotate(45deg);
+		
+	}
+	.head h3{
+		font-size:16px;
+		padding-top:20px;
+	}
+	.price-btn{
+		height:16%;
+		padding:25px 0px;
+		background-color:#f2f2f5;
+		border-radius:0 0 5px 5px;
+	}
+	.price-btn a{
+		padding:10px 30px;
+		border-radius:5px;
+		background-color:#6132c7;
+		color:#fff;
+	}
